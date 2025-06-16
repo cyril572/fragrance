@@ -74,7 +74,7 @@
  }
 
  #menu{
-    display: none;
+    display:none ;
     background-color: navy;
     width: 200px;
     height: 60em;
