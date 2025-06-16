@@ -18,10 +18,23 @@
     color: purple;
  }
  
- body{
-    font-family: monospace;
+ body h1,h2,h3{
+     
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 700;
+  font-style:italic;
+}
+
+/* .arsenal-sc-bold {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+} */
+
+ 
+
     
- }
+ 
  button{
     font-family: monospace;
  }
@@ -34,16 +47,46 @@
     margin-left: 20px;
     color: white;
     text-decoration: none;
+    animation-name: menu;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    animation-timing-function: ease;
+    font-family: monospace;
+    
+
+
+ }
+ @keyframes menu {
+    from{
+      transform: translate(100px);
+    }
+    to{
+      transform:translate(0px);
+    }
+  }
+ @keyframes slide {
+    from{
+      transform: translate(100px);
+    }
+    to{
+      transform:translate(0px);
+    }
  }
 
  #menu{
     display: none;
     background-color: navy;
     width: 200px;
-    height: 70em;
+    height: 60em;
     position: fixed;
     right: 0;
     top: 3px;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    animation-timing-function: ease;
+    border-radius: 12px;
+  
 
  }
  #menu :hover{
@@ -74,10 +117,13 @@
  }
  #form1 ,.submit{
    display: none;
- }
+   
+  }
+ 
  #register{
    display: none;
  }
+ 
  .about h1{
    margin:19px;
    color: purple;
@@ -118,7 +164,22 @@
    background-color: purple;
    border-radius: 10px;
    display: none;
+   animation-name: menu;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    animation-timing-function: ease;
+
+
  }
+ @keyframes menu {
+    from{
+      transform: translate(100px);
+    }
+    to{
+      transform:translate(0px);
+    }
+  }
+ 
  #last{
    display: block;
    padding: 9px;
@@ -140,6 +201,10 @@ width: 90%;
  margin-left: 40%;
  padding: 15px;
  
+}
+#gee{
+  display: block;
+  position: absolute;
 }
 
 

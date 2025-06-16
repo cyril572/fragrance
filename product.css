@@ -27,7 +27,22 @@ nav a{
    right: 0;
     display: none;
     top: 26px;
-}
+    animation-name: menu;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    animation-timing-function: ease;
+
+
+ }
+ @keyframes menu {
+    from{
+      transform: translate(100px);
+    }
+    to{
+      transform:translate(0px);
+    }
+  }
+
 #menu{
     display: block;
 }

@@ -1,14 +1,21 @@
+
 let x=document.getElementById("menu")
 let mee=document.querySelector("mee")
 function openMenu(){
    x.style.display="block"
+    if (x.style.display=="block"){
+      
 }
+}
+  
  dark.add.EventListener("click", darkMode)
  function darkMode(){
    document.body.style.background="black"
    document.body.style.color="white"
    document.header.style.background="black"
-   alert("dark mode activated")
+   if( document.body.style.background="black"){
+     alert("dark mode activated")
+   }
  }
    let y=document.getElementById("reg")
   reg =document.addEventListener("click" ,opMenu )

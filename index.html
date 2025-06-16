@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<link rel="stylesheet" href="style.css">
+    <title>mac-fragrance</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   </head>
+
+
 <body>
-    <header>
+    <header style="z-index: 1000;">
+
         <div>
             <h3>MAC-FRAGRANCE</h3>
         </div>
          <button id="dark" onclick="darkMode()"><p>DARK-MODE</p></button>
           <div class="navbar">
-            <button id="mee" onclick="openMenu()">MENU</button> 
+            <button id="mee" onclick="openMenu()">MENU</button>
             <div id="menu">
+  
                  <a href="index.html">HOME</a>
                  <a href="about.html">ABOUT</a>
                  <a href="product.html">PRODUCT</a>
@@ -25,7 +30,7 @@
           </div>
           
     </header>
-    <section class="hero">
+    <section class="hero" >
         <div class="hero2">
             <div>
             <h3>Smell Good is Our priority</h3>
@@ -38,6 +43,7 @@
                      <input type="email" placeholder="email-address " name="email" id="email" required>
                      <button id="submit" onclick="submit()">register</button>
                     </form>
+     
                </div>
              </span>
             </div>
@@ -53,48 +59,49 @@
           </section>
              
 
-          <div class="about">
+          <div class="about"data-aos="fade-down">
+     
                 <h1>ABOUT MAC-FRAGRANCE</h1>
+                
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto a delectus reprehenderit, adipisci, repellendus odit iusto doloribus praesentium doloremque tempora harum soluta ullam blanditiis repudiandae tempore quod quasi commodi, facere nobis labore placeat! Enim, natus corrupti? Esse molestiae maiores itaque.</p>
              </div>
 
-          <section class="before-about">
+          <section class="before-about" >
 
              <div>
-              <img src="IMG-20250506-WA0006.jpg" alt="">
+              <img src="IMG-20250506-WA0006.jpg" alt="" data-aos="flip-right">
              </div>
              <div >
-              <img src="IMG-20250506-WA0011.jpg" alt="">
+              <img src="IMG-20250506-WA0011.jpg" alt="" data-aos="flip-right">
              </div>
              <div class="img">
-               <img src="IMG-20250506-WA0022.jpg" alt="">
+               <img src="IMG-20250506-WA0022.jpg" alt="" data-aos="flip-right">
              </div>
              <div class="img">
-              <img src="IMG-20250506-WA0025.jpg" alt="">
+              <img src="IMG-20250506-WA0025.jpg" alt="" data-aos="flip-right">
              </div>
              <div class="img">
-              <img src="IMG-20250506-WA0004.jpg" alt="">
+              <img src="IMG-20250506-WA0004.jpg" alt="" data-aos="flip-right">
              </div>
              <div class="img">
-               <img src="IMG-20250506-WA0018.jpg" alt="">
+               <img src="IMG-20250506-WA0018.jpg" alt="" data-aos="flip-right">
              </div>
              <div class="img">
-              <img src="IMG-20250506-WA0014.jpg" alt="">
+              <img src="IMG-20250506-WA0014.jpg" alt="" data-aos="flip-right">
              </div>
              <div class="img">
-              <img src="IMG-20250506-WA0010.jpg" alt="">
+              <img src="IMG-20250506-WA0010.jpg" alt="" data-aos="flip-right">
              </div>
           </section>
 
-          <section class="product">
-             <h1>Product</h1>
-
+           <section class="product" > 
+             <h1>Product</h1 >
             <div>
                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis ex, nemo, veniam adipisci enim nulla doloribus, laboriosam magnam facilis similique ut facere qui voluptatibus ad pariatur. Ab maxime dolore eum quia, similique excepturi labore quisquam, cum aut maiores nam pariatur inventore! Eos maxime impedit porro, quas blanditiis minima asperiores voluptates!
             </div>
-            <img src="IMG-20250506-WA0011.jpg" alt="">
+            <img src="IMG-20250506-WA0011.jpg" alt=""data-aos="flip-up">
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, qui unde autem assumenda suscipit mollitia neque laboriosam vel explicabo iusto officiis ab nulla porro aspernatur aperiam atque non praesentium deleniti.</h3>
-            <img src="IMG-20250506-WA0014.jpg" alt="">
+            <img src="IMG-20250506-WA0014.jpg" alt="" data-aos="flip-up">
           </section>
         <footer>
            <div class="last">
@@ -116,5 +123,10 @@
         </footer>
 
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+ <script>
+  AOS.init();
+</script>
 </body>
 </html>
