@@ -8,6 +8,7 @@ function openMenu(){
    document.body.style.background="black"
    document.body.style.color="white"
    document.header.style.background="black"
+   alert("dark mode activated")
  }
    let y=document.getElementById("reg")
   reg =document.addEventListener("click" ,opMenu )
@@ -23,7 +24,7 @@ function openMenu(){
     part=document.addEventListener("click",lastMenu ) 
     function lastMenu(){
       part.style.display="block"
-      alert('thanks for registering to mac_fragrance where u can buy luxry perfume etc'+"smell good is our priority" )
+      alert("thanks for registering to mac-fragrance where u can buy luxry perfume  smell good is our priority" )
     }
       let a=document.getElementById("name2")
       name2=document.addEventListener("click" ,submit3)
