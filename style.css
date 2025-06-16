@@ -10,7 +10,7 @@
     border: 1px solid purple;
     position: sticky;
     top: 0;
-    background-color: black;
+    background-color: navy;
     color: white;
  }
  button{
@@ -20,6 +20,7 @@
  
  body{
     font-family: monospace;
+    
  }
  button{
     font-family: monospace;
@@ -37,9 +38,9 @@
 
  #menu{
     display: none;
-    background-color: purple;
+    background-color: navy;
     width: 200px;
-    height: 50em;
+    height: 70em;
     position: fixed;
     right: 0;
     top: 3px;

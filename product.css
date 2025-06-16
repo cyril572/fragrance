@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    position: sticky;
+   top: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+   background-color: navy;
+   color: white;
+   
+}
+nav a{
+    text-decoration: none;
+   
+   
+    
+}
+#back{
+   background-color: purple;
+   height: 40em;
+   width: 40%;
+   position: fixed;
+   right: 0;
+    display: none;
+    top: 26px;
+}
+#menu{
+    display: block;
+}
+nav p{
+    color: white;
+     margin-top: 20%;
+     margin-left: 6px;
+}
+.pf img{
+  width: 70%;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.pf h1{
+    text-align: center;
+    text-decoration: wavy;
+    color: purple;
+}
+.pf p{
+    text-align: center;
+
+}
+.pics img{
+    width: 100%;
+    display: grid;
+    margin-top: 20px;
+}
+.rate{
+    text-align: center;
+    color: purple;
+}
+.rate2{
+    text-align: center;
+    margin-top: 20px;
+}

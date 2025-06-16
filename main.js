@@ -8,7 +8,6 @@ function openMenu(){
    document.body.style.background="black"
    document.body.style.color="white"
    document.header.style.background="black"
-   alert("dark mode activated")
  }
    let y=document.getElementById("reg")
   reg =document.addEventListener("click" ,opMenu )
